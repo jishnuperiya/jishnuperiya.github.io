@@ -1,0 +1,39 @@
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
+
+// Colors
+$red-color: #e53935 !default;
+$red-color-dark: #b71c1c !default;
+$orange-color: #fb8c00 !default;
+$blue-color: #1e88e5 !default;
+$blue-color-dark: #1565c0 !default;
+$cyan-color: #00acc1 !default;
+$light-cyan-color: lighten($cyan-color, 20%);
+$green-color: #43a047 !default;
+$green-color-lime: #c0ca33 !default;
+$green-color-dark: #2e7d32 !default;
+$green-color-light: #ddffdd !default;
+$green-color-bright: #00e676 !default;
+$purple-color: #8e24aa !default;
+$light-purple-color: lighten($purple-color, 20%);
+$pink-color: #d81b60 !default;
+$pink-color-light: #fce4ec !default;
+$yellow-color: #fdd835 !default;
+
+$grey-color: #757575 !default;
+$grey-color-light: lighten($grey-color, 35%);
+$grey-color-dark: #424242;
+$grey-900: #212121;
+
+$white-color: #ffffff !default;
+$black-color: #000000 !default;
+
+// Theme colors
+
+$code-bg-color-light: rgba($purple-color, 0.07);
+$code-bg-color-dark: #263238 !default;
+
+// Font awesome location
+$fa-font-path: "../webfonts";

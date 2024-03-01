@@ -1,0 +1,70 @@
+{
+  "basics": {
+    "name": "Harisankar Babu",
+    "label": "Researcher",
+    "image": "",
+    "email": "harisankar995@gmail.com",
+    "url": "https://harisankar95.github.io/",
+    "summary": "I like to work with deep neural networks and autonomous systems.",
+    "location": "Germany"
+  },
+  "work": [
+    {
+      "name": "Fraunhofer-Institut für Verkehrs und Infrastruktursysteme IVI",
+      "url": "https://www.ivi.fraunhofer.de/en.html",
+      "position": "Research Associate",
+      "startDate": "Mar '23",
+      "endDate": "Apr '24",
+      "highlights": ["Highly Automated Flying"]
+    },
+    {
+      "name": "Mahindra & Mahindra Ltd.",
+      "url": "https://www.mahindra.com/our-business/automotive",
+      "position": "Development Engineer",
+      "startDate": "Aug '17",
+      "endDate": "Aug '19",
+      "highlights": ["Powertrain Division"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technische Universität Dresden",
+      "url": "https://tu-dresden.de/",
+      "area": "Computational Engineering",
+      "studyType": "Master of Science",
+      "startDate": "Oct '19",
+      "endDate": "Jan '23",
+      "score": "1.3",
+      "courses": ["Deep Learning", "High Performance Computing and Parallel Programming"]
+    },
+    {
+      "institution": "University of Kerala",
+      "url": "https://www.keralauniversity.ac.in/",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "Aug '13",
+      "endDate": "Apr '17",
+      "score": "1.8",
+      "courses": ["Automotive Engineering", "Mechatronics"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
+      "icon": "fa-solid fa-language"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Deep Learning",
+      "icon": "fa-solid fa-atom",
+      "keywords": ["Autonomous Systems", "Computer Vision", "Reinforcement Learning"]
+    }
+  ]
+}

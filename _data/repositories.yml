@@ -1,7 +1,6 @@
 github_users:
-  - harisankar95
+  - jishnuperiya
 
 github_repos:
-  - harisankar95/voxelgym2D
-  - harisankar95/pathfinding3D
-  - harisankar95/AdvStyle
+  - jishnuperiya/ego-localization-simulation-2d
+  - jishnuperiya/realtime-traffic-network-monitor

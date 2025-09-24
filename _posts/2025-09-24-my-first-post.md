@@ -1,5 +1,7 @@
-This is your new *vault*.
+---
+layout: post
+title: "How to Make a GitHub Page"
+date: 2025-09-24
+---
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
+Your content here…

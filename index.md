@@ -1,2 +1,6 @@
-# Welcome to my blog!
-This is my first post. More coming soon.
+---
+layout: home
+title: "Welcome"
+---
+
+Hi! This blog is powered by GitHub Pages + Jekyll.

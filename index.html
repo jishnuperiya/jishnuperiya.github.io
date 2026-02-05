@@ -1,123 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Jishnu Periya</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <style>
-    :root {
-      --text: #1f2933;
-      --muted: #6b7280;
-      --accent: #2563eb;
-      --bg: #ffffff;
-    }
-
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
-                   "Segoe UI", Roboto, Ubuntu, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      margin: 0;
-      padding: 4rem 1.5rem;
-      line-height: 1.6;
-    }
-
-    main {
+      background: #ffffff;
+      color: #000000;
+      font-family: "Times New Roman", Times, serif;
+      margin: 40px;
       max-width: 720px;
-      margin: 0 auto;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.25rem;
-      letter-spacing: -0.02em;
+      font-size: 28px;
+      margin-bottom: 6px;
     }
 
-    .tagline {
-      color: var(--muted);
-      font-size: 1.1rem;
-      margin-bottom: 3rem;
+    .subtitle {
+      font-style: italic;
+      margin-bottom: 20px;
     }
 
     h2 {
-      font-size: 1.4rem;
-      margin-top: 3rem;
-      margin-bottom: 1rem;
+      font-size: 20px;
+      margin-top: 30px;
+      border-bottom: 1px solid #000;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.45;
     }
 
     ul {
-      list-style: none;
-      padding-left: 0;
+      list-style-type: disc;
+      margin-left: 20px;
     }
 
     li {
-      margin-bottom: 0.75rem;
+      margin-bottom: 6px;
     }
 
     a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    a:hover {
+      color: #0000cc;
       text-decoration: underline;
     }
 
-    .project-desc {
-      color: var(--muted);
-      font-size: 0.95rem;
+    a:visited {
+      color: #551a8b;
     }
 
-    footer {
-      margin-top: 4rem;
-      color: var(--muted);
-      font-size: 0.9rem;
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      font-style: italic;
     }
   </style>
 </head>
 
 <body>
-  <main>
-    <h1>Jishnu Periya</h1>
-    <div class="tagline">
-      C++ Systems · Simulation · Estimation
-    </div>
 
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <a href="/sentinex/">Sentinex</a><br />
-        <span class="project-desc">
-          State estimation and simulation framework for motion models and filters
-        </span>
-      </li>
+  <h1>Jishnu Periya</h1>
+  <div class="subtitle">
+    C++ Systems Engineer
+  </div>
 
-      <li>
-        <a href="/harmony/">Harmony</a><br />
-        <span class="project-desc">
-          Computational music engine exploring modern C++ design and semantics
-        </span>
-      </li>
+  <p>
+    I am a C++ systems and middleware engineer focused on high-performance,
+    deterministic software, modern C++17/20 library design, and long-lived
+    codebases. My work emphasizes correctness, clear abstractions,
+    and maintainable systems architecture.
+  </p>
 
-      <li>
-        <a href="/professionalcpp/">Professional C++</a><br />
-        <span class="project-desc">
-          Technical writing, design notes, and engineering decisions
-        </span>
-      </li>
-    </ul>
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <a href="/sentinex/">Sentinex</a> —
+      C++ systems framework for deterministic simulation and validation
+    </li>
+    <li>
+      <a href="/harmony/">Harmony</a> —
+      Computational music engine exploring modern C++ design and value semantics
+    </li>
+    <li>
+      <a href="/professionalcpp/">Professional C++</a> —
+      Technical writing and design notes on C++ systems engineering
+    </li>
+  </ul>
 
-    <h2>Links</h2>
-    <ul>
-      <li><a href="https://github.com/jishnuperiya">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/jishnu-periya/">LinkedIn</a></li>
-    </ul>
+  <h2>Links</h2>
+  <ul>
+    <li><a href="/resume/Jishnu_Periya_CV.pdf">Résumé (PDF)</a></li>
+    <li><a href="https://github.com/jishnuperiya">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/jishnu-periya/">LinkedIn</a></li>
+  </ul>
 
-    <footer>
-      Built with static HTML · Hosted on GitHub Pages
-    </footer>
-  </main>
+  <div class="footer">
+    Ingolstadt, Germany
+  </div>
+
 </body>
 </html>

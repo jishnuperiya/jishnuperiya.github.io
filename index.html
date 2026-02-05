@@ -1,30 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Jishnu Periya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --text: #1f2933;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --bg: #ffffff;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Ubuntu, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 4rem 1.5rem;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Jishnu Periya</h1>
-  <p>C++ Systems · Simulation · Estimation</p>
+  <main>
+    <h1>Jishnu Periya</h1>
+    <div class="tagline">
+      C++ Systems · Simulation · Estimation
+    </div>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <a href="/sentinex/">Sentinex</a> — State Estimation & Simulation
-    </li>
-    <li>
-      <a href="/harmony/">Harmony</a> — Computational Music & C++ Design
-    </li>
-    <li>
-      <a href="/professionalcpp/">Professional C++</a> — Technical Writing & Design Notes
-    </li>
-  </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <a href="/sentinex/">Sentinex</a><br />
+        <span class="project-desc">
+          State estimation and simulation framework for motion models and filters
+        </span>
+      </li>
 
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://github.com/jishnuperiya">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/jishnu-periya/">LinkedIn</a></li>
-  </ul>
+      <li>
+        <a href="/harmony/">Harmony</a><br />
+        <span class="project-desc">
+          Computational music engine exploring modern C++ design and semantics
+        </span>
+      </li>
+
+      <li>
+        <a href="/professionalcpp/">Professional C++</a><br />
+        <span class="project-desc">
+          Technical writing, design notes, and engineering decisions
+        </span>
+      </li>
+    </ul>
+
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://github.com/jishnuperiya">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/jishnu-periya/">LinkedIn</a></li>
+    </ul>
+
+    <footer>
+      Built with static HTML · Hosted on GitHub Pages
+    </footer>
+  </main>
 </body>
 </html>
